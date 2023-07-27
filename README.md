@@ -1,8 +1,8 @@
 # Project Name
-Firebase Authentication Sign With Google 
+"Email and Password" Sign Up and Sign In features using Firebase Authentication
 
 ## Project Description
-Firebase Authentication is a powerful service offered by Google's Firebase platform, which allows you to easily add user authentication and sign-in functionality to your web or mobile applications. 
+This web application project demonstrates how to implement "Email and Password" Sign Up and Sign In features using Firebase Authentication. The application allows users to sign up for an account using their email and password and then sign in with the same credentials to access the platform's features and services.
 
  ### Prerequisites
 Before getting started, make sure you have the following set up:
@@ -11,7 +11,7 @@ Step 1: Set Up Firebase Project:
 If you haven't created a Firebase project, go to the Firebase console (https://console.firebase.google.com/) and create a new project. Follow the on-screen instructions to set up your project.
 
 Step 2: Enable Firebase Authentication:
-In the Firebase console, navigate to "Authentication" from the left sidebar. Under the "Sign-in method" tab, choose the authentication methods you want to enable, such as Email/Password, Google, Facebook, etc. Enable the desired methods and save your changes.
+In the Firebase console, navigate to "Authentication" from the left sidebar. Under the "Sign-in method" tab, choose the authentication methods you want to enable, such as Email/Password, etc. Enable the desired methods and save your changes.
 
 Step 3: Install Firebase SDK:
 To use Firebase Authentication in your application, you need to integrate the Firebase SDK into your project. Refer to the official Firebase documentation for instructions on how to install the SDK for your specific platform.
@@ -35,17 +35,27 @@ b. Access the project:
    - Open a web browser.
    - Enter the URL (e.g., `http://localhost:3000/`).
 
-c.Sign In with Google: Click the "Sign In with Google" button on the web application. If you are not already signed in to your Google account, you will be prompted to sign in.
+c.Your web application should now be running. Open it in your browser and test the "Email Password Sign Up" and "Email Password Sign In" functionalities.
+## Test "Email Password Sign Up" and "Email Password Sign In":
+A. the web application, you should see sign-up and sign-in forms with input fields for email and password.
+
+1. Test the "Email Password Sign Up" functionality:
+    a.Enter a valid email address and a password, then click the "Sign Up" button.
+    b.If successful, a new user account will be created in Firebase, and you should see the signed-up user's information in the      
+      browser console.
+2. Test the "Email Password Sign In" functionality:
+    a.Enter the same email and password used during sign-up, then click the "Sign In" button.
+    b.If successful, the user will be signed in, and you should see the signed-in user's information in the browser console.
 
 Grant Permissions: Grant permission to the application to access your Google account information.
 
-Successful Authentication: Once authenticated, you will be redirected back to the application and shown a welcome message with your display name and email.
+
 
 ## Conclusion:
 With Firebase Authentication set up and integrated into your application, you can easily add user login functionality, protect specific routes or content, and personalize user experiences based on their authentication status. Always ensure you handle authentication securely, and refer to the official Firebase documentation for detailed information on additional features and best practices.
 
-## Project Priview
-![image](https://github.com/saiinfo/firebase_login/assets/26924010/549253fa-0db4-4c12-94dd-889859030d51)
-![image](https://github.com/saiinfo/firebase_login/assets/26924010/995046bb-43ea-4ca3-aeeb-baa50007e186)
+## Project Priview:
+![20230727_102020](https://github.com/saiinfo/Email-and-Password-Sign-Up-and-Sign-In-features-using-Firebase-Authentication/assets/26924010/a2f074cb-6189-48ea-85ed-0de8d9f8f616)
+
 
 
