@@ -55,7 +55,8 @@ Grant Permissions: Grant permission to the application to access your Google acc
 With Firebase Authentication set up and integrated into your application, you can easily add user login functionality, protect specific routes or content, and personalize user experiences based on their authentication status. Always ensure you handle authentication securely, and refer to the official Firebase documentation for detailed information on additional features and best practices.
 
 ## Project Priview:
-![20230727_102020](https://github.com/saiinfo/Email-and-Password-Sign-Up-and-Sign-In-features-using-Firebase-Authentication/assets/26924010/a2f074cb-6189-48ea-85ed-0de8d9f8f616)
+![20230727_112950](https://github.com/saiinfo/Email-and-Password-Sign-Up-and-Sign-In-features-using-Firebase-Authentication/assets/26924010/284ad8a2-9c02-4bca-bba9-946958e294f3)
+
 
 
 
